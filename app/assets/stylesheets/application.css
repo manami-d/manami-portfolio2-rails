@@ -35,6 +35,7 @@
 
 .left-nav {
   text-align: left;
+  margin-right: auto;
 }
 
 .left-nav img {
@@ -43,6 +44,9 @@
 
 .right-nav {
   text-align: right;
+}
+.right-nav li {
+  margin: 0 2rem;
 }
 
 ul {
@@ -85,8 +89,28 @@ img {
   width: 50vw;
 }
 
+.contact-container {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .footer {
   background-color: #537d8f;
   color: #f4f2ee;
   padding: 1.5rem;
+}
+
+.carousel-outer-wrapper {
+  display: flex;
+  width: 50vw;
+  height: 25vh;
+}
+.carousel-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-image {
+  height: 150px;
+  width: 25vw;
 }

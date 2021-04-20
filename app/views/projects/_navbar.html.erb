@@ -1,12 +1,12 @@
-<div class="nav-container flex">
+<nav class="nav-container flex">
   <div class="left-nav">
     <%=image_tag("rainbow-logo.png", alt: "logo")%>
   </div>
   <div class="right-nav">
     <ul>
-      <li><a href="app/views/projects/index.html.erb">Home</a></li>
+      <li><%= link_to 'HOME', root_path %></li>
       <li><a href="app/views/projects/show.html.erb">Projects</a></li>
       <li><a href="app/views/projects/contact.html.erb">Contact</a></li>
     </ul>
   </div>
-</div>
+</nav>

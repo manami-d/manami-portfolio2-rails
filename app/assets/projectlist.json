@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Manami Portfolio",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aspernatur in sed et odit necessitatibus? Necessitatibus, labore quisquam. Sed, laudantium!",
+      "image": "image0"
+    },
+    {
+      "id": 1,
+      "title": "To Do App",
+      "details": "",
+      "image": "image1"
+    },
+    { "id": 2, "title": "Weather API", "details": "", "image": "image2" },
+    {
+      "id": 3,
+      "title": "Recipe Website",
+      "details": "",
+      "image": "image3"
+    }
+  ]
+}

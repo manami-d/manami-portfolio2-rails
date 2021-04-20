@@ -8,12 +8,13 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    # google fonts
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <%= yield %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= yield :after_js %>
   </body>
 </html>

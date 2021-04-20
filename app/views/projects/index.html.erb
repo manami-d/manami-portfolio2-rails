@@ -5,7 +5,7 @@
 
 <section>
   <h2>About Me</h2>
-  <p>I am Manami Davidson, a recent graduate of a 12 week bootcamp in front end wen development and currently taking another tech course to learn more about IT.</p>
+  <p>I am Manami Davidson, a recent graduate of a 12 week bootcamp in front end web development and now taking another tech course to learn more about IT industry. Outside of the course, I am currently teaching myself React and Ruby on Rails.</p>
   <p>My love of learning helps me develop my knowledge and skills further every day.</p> 
 </section>
 <section>
@@ -13,8 +13,18 @@
   <p>HTML | CSS | Bootstrap | Git | Github | Javascript | React | Ruby on Rails | WordPress | SEO</p>
 </section>
 
-<%= render "projects" %>
-<%= link_to "Check out projects here!", "projects/show" %>
+
+<h2>Projects</h2>
+<div class="carousel-outer-wrapper">
+<% @projects.each do |project| %>
+<div class="carousel-inner-wrapper" >
+  <%= link_to project_path(project) do %>
+    <%= image_tag("placeholder.png", alt: "logo", class: "carousel-image") %>
+    <%= project["title"] %>
+  <% end %>
+</div>
+<% end %>
+</div>
 
 <%= render "contact" %>
 

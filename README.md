@@ -1,24 +1,8 @@
-# README
+# Manami Portfolio 2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project for INCO Academy course to create a personal portfolio website. Any languages or platform was allowed so I chose Ruby on Rails as I am currently learning this framework and wanted to challenge myself to create a website on my own.
 
-Things you may want to cover:
+## Versions
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ruby 2.7.1
+Ruby on Rails 6.1.3.1
