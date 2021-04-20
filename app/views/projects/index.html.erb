@@ -1,0 +1,21 @@
+<%= render "navbar" %>
+
+<h1>Hi, I'm Manami. I love creating websites.</h1>
+<%=image_tag("sunflower.jpg", alt: "sunflower")%>
+
+<section>
+  <h2>About Me</h2>
+  <p>I am Manami Davidson, a recent graduate of a 12 week bootcamp in front end wen development and currently taking another tech course to learn more about IT.</p>
+  <p>My love of learning helps me develop my knowledge and skills further every day.</p> 
+</section>
+<section>
+  <h2>Technology</h2>
+  <p>HTML | CSS | Bootstrap | Git | Github | Javascript | React | Ruby on Rails | WordPress | SEO</p>
+</section>
+
+<%= render "projects" %>
+<%= link_to "Check out projects here!", "projects/show" %>
+
+<%= render "contact" %>
+
+<%= render "footer" %>
