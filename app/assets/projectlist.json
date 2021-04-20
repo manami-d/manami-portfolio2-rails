@@ -3,21 +3,26 @@
     {
       "id": 0,
       "title": "Manami Portfolio",
-      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aspernatur in sed et odit necessitatibus? Necessitatibus, labore quisquam. Sed, laudantium!",
-      "image": "image0"
+      "details": "My first portfolio website. Made with: HTML | CSS | JavaScript | React",
+      "image": "portfolio.png"
     },
     {
       "id": 1,
       "title": "To Do App",
-      "details": "",
-      "image": "image1"
+      "details": "A group project for the front end web development bootcamp. Made with: HTML | CSS | Bootstrap | JavaScript",
+      "image": "app/assets/images/todoapp.png"
     },
-    { "id": 2, "title": "Weather API", "details": "", "image": "image2" },
+    {
+      "id": 2,
+      "title": "Weather API",
+      "details": "Weather API app. Made with: HTML | CSS | JavaScript | APIs",
+      "image": "app/assets/images/weatherapi.png"
+    },
     {
       "id": 3,
       "title": "Recipe Website",
-      "details": "",
-      "image": "image3"
+      "details": "Recepe website that I made to practice Bootstrap. Made with HTML | CSS | Bootstrap",
+      "image": "app/assets/images/recipewebsite.png"
     }
   ]
 }

@@ -9,20 +9,7 @@ class ProjectsController < ApplicationController
   end
   
   def show
-    puts "===="
-    puts ">>> project deets ARE HERE <<<"
-
-
     @project = params
-    
-    puts @project
-    puts "===="
-    # @project = {
-    #   image: params[:image],
-    #   title: params[:title],
-    #   details: params[:details]
-    # }
-
   end
 
   def contact

@@ -1,6 +1,8 @@
 <h2>Project</h2>
-    <div> 
-      <%= @project["image"] %>
-      <%= @project["title"] %>
-      <%= @project["details"] %>
-    </div>
+  <div> 
+    <%= image_tag(@project["image"]) %>
+    <h3><%= @project["title"] %></h3>
+    <p><%= @project["details"] %></p>
+  </div>
+
+    

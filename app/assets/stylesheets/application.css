@@ -71,6 +71,16 @@ a:active {
   text-decoration: underline;
 }
 
+body {
+  min-width: 320px;
+  width: 100vw;
+  margin: auto;
+}
+
+section {
+  padding: 1rem;
+}
+
 /* p {
   text-align: left;
 } */
@@ -85,8 +95,11 @@ h2 {
   font-family: "Merriweather", serif;
 }
 
-img {
-  width: 50vw;
+h1 {
+  margin: initial;
+}
+.top-image {
+  width: 100%;
 }
 
 .contact-container {
@@ -94,7 +107,7 @@ img {
   justify-content: space-evenly;
 }
 
-.footer {
+footer {
   background-color: #537d8f;
   color: #f4f2ee;
   padding: 1.5rem;
@@ -102,12 +115,16 @@ img {
 
 .carousel-outer-wrapper {
   display: flex;
-  width: 50vw;
-  height: 25vh;
+  height: 75vh;
+  width: 100vw;
+  overflow-x: scroll;
 }
 .carousel-inner-wrapper {
+  width: 100vw;
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .carousel-image {
