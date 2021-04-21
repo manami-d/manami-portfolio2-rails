@@ -13,11 +13,9 @@
  *= require_tree .
  *= require_self
  */
-
 /*
  *= require font-awesome
  */
-@import "font-awesome";
 
 * {
   background-color: #f4f2ee;

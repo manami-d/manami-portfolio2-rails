@@ -3,9 +3,6 @@ class ProjectsController < ApplicationController
 
   def index
     @projects = PROJECTS["projects"]
-    puts "===="
-    puts @projects
-    puts "===="
   end
   
   def show

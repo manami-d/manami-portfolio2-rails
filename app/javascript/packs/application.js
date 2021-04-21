@@ -12,8 +12,7 @@ import JQuery from "jquery";
 window.$ = window.JQuery = JQuery;
 import 'bootstrap'
 import '../stylesheets/application'
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel";
+
 
 Rails.start();
 Turbolinks.start();
