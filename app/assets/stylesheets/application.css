@@ -31,22 +31,32 @@
 
 .nav-container {
   border-bottom: 1.5px solid #537d8f;
+  align-items: center;
 }
 
 .left-nav {
   text-align: left;
-  margin-right: auto;
+  align-items: center;
 }
 
 .left-nav img {
-  width: 5vw;
+  width: 10vw;
 }
 
 .right-nav {
-  text-align: right;
+  width: 89vw;
+  display: flex;
+  align-items: center;
 }
-.right-nav li {
+/* .right-nav li {
   margin: 0 2rem;
+} */
+.right-nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: initial;
+  margin: 0.5rem 0;
 }
 
 ul {
@@ -74,16 +84,16 @@ a:active {
 body {
   min-width: 320px;
   width: 100vw;
-  margin: auto;
 }
 
 section {
   padding: 1rem;
 }
 
-/* p {
-  text-align: left;
-} */
+p {
+  max-width: 70vw;
+  margin: 0 auto;
+}
 
 /* h1,
 h2 {
@@ -95,11 +105,9 @@ h2 {
   font-family: "Merriweather", serif;
 }
 
-h1 {
-  margin: initial;
-}
 .top-image {
   width: 100%;
+  background-color: #f4f2ee;
 }
 
 .contact-container {
@@ -113,7 +121,7 @@ footer {
   padding: 1.5rem;
 }
 
-.carousel-outer-wrapper {
+/* .carousel-outer-wrapper {
   display: flex;
   height: 75vh;
   width: 100vw;
@@ -130,4 +138,38 @@ footer {
 .carousel-image {
   height: 150px;
   width: 25vw;
+} */
+
+/* tablet */
+@media only screen and (min-width: 721px) {
+  .top-image {
+    width: 50vw;
+    background-color: #f4f2ee;
+  }
+  .left-nav {
+    margin-right: auto;
+  }
+  #main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* desktop */
+@media only screen and (min-width: 1200px) {
+  .top-image {
+    width: 30vw;
+    background-color: #f4f2ee;
+  }
+  .contact-container {
+    max-width: 40vw;
+    margin: 0 auto;
+  }
+  .left-nav img {
+    width: 5vw;
+  }
+
+  .right-nav {
+    width: 94vw;
+  }
 }

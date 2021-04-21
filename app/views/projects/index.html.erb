@@ -1,7 +1,9 @@
 <%= render "navbar" %>
 
-<h1>Hi, I'm Manami. I love creating websites.</h1>
-<%=image_tag("sunflower.jpg", alt: "sunflower", :class => "top-image" )%>
+<section id="main-heading">
+  <h1>Hi, I'm Manami.<br> I love creating websites.</h1>
+  <%=image_tag("sunflower.jpg", alt: "sunflower", :class => "top-image" )%>
+</section>
 
 <section>
   <h2>About Me</h2>
@@ -21,7 +23,7 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active"> 
-        <a href="projet_path"> 
+        <a href="https://manami-davidson.netlify.app/">
           <img src="<%= image_url('portfolio.png')%>"class="d-block w-100" alt="portfolio">
           <div class="carousel-caption d-none d-md-block">
             <h5>Portfolio Website</h5>
@@ -30,7 +32,7 @@
         </a>
       </div>
       <div class="carousel-item">
-        <a href="#">
+        <a href="https://github.com/manami-d/Weather-API">
           <img src="<%= image_url('weatherapi.png') %>" class="d-block w-100" alt="weather api">
           <div class="carousel-caption d-none d-md-block">
             <h5>Weather API</h5>
@@ -39,7 +41,7 @@
         </a>
       </div>
       <div class="carousel-item">
-        <a href="#">
+        <a href="https://jwd4-todolist-app.netlify.app/">
           <img src="<%= image_url('todoapp.png') %>" class="d-block w-100" alt="to do list app">
           <div class="carousel-caption d-none d-md-block">
             <h5>To Do List App</h5>
@@ -48,7 +50,7 @@
           </a>
       </div>
       <div class="carousel-item">
-        <a href="#">
+        <a href="https://recipe-website-bootstrap.netlify.app/">
           <img src="<%= image_url('recipewebsite.png') %>" class="d-block w-100" alt="to do list app">
           <div class="carousel-caption d-none d-md-block">
             <h5>Recipe Website</h5>
