@@ -6,3 +6,7 @@ This is a project for INCO Academy course to create a personal portfolio website
 
 Ruby 2.7.1
 Ruby on Rails 6.1.3.1
+
+## Deployment
+
+[Portfolio](https://manami-inco-portfolio.herokuapp.com/)
